@@ -1,7 +1,7 @@
 /*
 
 
- Volumewartungstask = reine Windows Sicherheitseinstellung
+Volumewartungstask = reine Windows Sicherheitseinstellung
 
 
 jede Vergrößerung verbraucht eigtl die doppelte Schreibarbeit
@@ -89,8 +89,24 @@ Auth
 
 
 
-
+--HV-SQL2
 
 schulung\administrator
 ppedv2023!
+
+
+
+
+16 GB RAM
+4 Kerne
+
+
+16-4-2
+
+HV-DC     dyn. 1024-2048   2 Kerne
+HV-SQL1   fix  5000  4 kerne
+HV-SQL2   fix  4500  4 kerne
+
+
+
 
