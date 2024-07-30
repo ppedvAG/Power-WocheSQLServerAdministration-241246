@@ -192,3 +192,149 @@ Sicherungsintegrität, Prüfsummen bei Fehler fortsetzen
 */
 
 
+
+-----BACKUP
+
+/*
+
+Vollständige V
+Diffrentielle D
+Transaktionspro T
+
+
+Recoverymodel Wiederherstellungsmodel (model)
+
+---------------------------
+TXok  TXok TXok TXx TXok
+--------------------------
+
+
+Einfach
+INS UP DEL rudim bulk
+TX werden autom gelöscht
+keine Sicherung des T
+rel wenig protokolliert
+TestDB Dev Server
+
+
+Massenprotokoll
+wie Einfach
+es werden keine TX gelöscht
+dsa T muss gesichert werden
+TX werden "herausgesichert"
+sichert einen Zeitpunkt
+
+
+
+
+Vollständig
+wie bulk aber auch IX Stat
+im Prinzp alles aus Lesen
+-- Restore auf Sekunde
+Produktive DB
+
+
+
+!V
+	T
+	T
+	T
+D
+	T
+	T
+	T
+!D
+!	T
+!	T
+!	T
+
+Volls
+alles zu einem best Zeitpunkt
+Pfade, Dateiname, Größe
+
+Diff 
+sichert alle geänderten Blöcke seit des letzten V
+
+Tlog
+merkt sich den Weg (TX)
+
+Welche Sicherung stellt den schnellsten Restore dar
+V
+
+
+Wie lange dauert der Restore des vorletzten T
+Solange wie die TX im realfall benötigten
+
+
+Was kann passieren?
+
+1) DB gelöscht
+
+2) Daten(user weg) versehentlich manipuliert
+..wenn man weiss, was geschehen ist
+DB restore unter anderen Namen
+Pfade oder Dateinamen ändern
+Fragmentsicherung deaktiveren
+
+
+3) Server tot - HDD nicht 
+	Dateien anfügen
+	evtl Log entfernen, wenn ldf fehlt
+
+4) Server tot -Daten ok , aber log tot
+
+5) Server komplett tot
+Backup Restore auf  anderen Server
+evtl Pfade anpassen
+
+6) DB fehlerverdächtig
+	Rep scheitert-- DB restoren
+
+
+7) wenn ich wüsste, dass gleich was passieren könnte
+
+select * from sysfiles
+
+
+update customers set city = 'BGH'
+where customerid = 'ALFKI'
+
+8) DB muss restored werden mit geringst möglichen DAtenverlust	
+	DB läuft noch aber evtl DAtenmanipuliert 
+
+
+
+
+8:00
+10:15 T letzte Sicherung
+
+10:45  Error
+10:47 Ein Fehler wird gemeldet -- Restore der DB
+
+11:00 T geplant (dauert 5min)
+
+
+--warten auf 11 Uhr, dann restore von 10:44
+
+--Datenverlust?
+
+
+10:48 Backup T -- 10:53
+
+10:48 kill user
+10:44 Restore und ersetzen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
