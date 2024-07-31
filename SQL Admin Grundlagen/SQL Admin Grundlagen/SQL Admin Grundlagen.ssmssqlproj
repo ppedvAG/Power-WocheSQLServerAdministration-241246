@@ -122,22 +122,46 @@
           <FullPath>14__Security.sql</FullPath>
         </FileNode>
         <FileNode Name="15_VerwaisteUser.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN\HR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN\HR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>15_VerwaisteUser.sql</FullPath>
         </FileNode>
         <FileNode Name="18_Containted Databases.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN\HR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN\HR</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>18_Containted Databases.sql</FullPath>
         </FileNode>
         <FileNode Name="19_Richtlinien.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN\HR:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN\HR</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19_Richtlinien.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Audit.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>19_Richtlinien.sql</FullPath>
+          <FullPath>20_Audit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30 Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>30 Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_Backup_Snapshot_SQL2022.sql">
           <AssociatedConnectionMoniker />
@@ -157,16 +181,34 @@
           <AssociatedConnUserName />
           <FullPath>Z_loginMonitor.sql</FullPath>
         </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
+        </FileNode>
         <FileNode Name="Z_sp_helprevlogin.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Z_sp_helprevlogin.sql</FullPath>
         </FileNode>
+        <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
       <Items>
+        <FileNode Name="PerfmonSQLBasic.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PerfmonSQLBasic.xml</FullPath>
+        </FileNode>
         <FileNode Name="SQLPOL.zip">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
