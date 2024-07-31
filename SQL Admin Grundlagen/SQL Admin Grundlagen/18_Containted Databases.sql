@@ -1,23 +1,37 @@
-
+--KOnfig auf dem Server
+--Erweitert: Eigenständige DB auf true
 EXEC SP_CONFIGURE 'show advanced options', 1;
 RECONFIGURE;
 GO
 EXEC SP_CONFIGURE 'contained database authentication', 1;
 RECONFIGURE;
 
+/*
+Datenbankübergreifende Zugriffe?
+Ja, das ist möglich. Notwendig dazu ist, dass die Contained Database auf vertrauenswürdig gesetzt ist:
+
+ALTER DATABASE ContDB SET TRUSTWORTHY ON
+--------------*/
 
 USE [master]
 GO
 ALTER DATABASE [Accounting] SET CONTAINMENT = PARTIAL
 GO
-
-
+/*
+Einschränkungen und Tipps
+Vermeiden Sie Logins mit gleichen Namen wie der Contained DB Benutzer. Falls doch, dann ändern sie beim Login die Standarddatenbank so, dass nicht gleich auf die ContDB zugegriffen wird. Sonst gibts Fehler bei der Anmeldung.
+keine Kerberos Authentifizierung möglich
+beim Anfügen einer Datenbank den Zugriff auf Restricted User stellen, um nicht unegwollte zugriffe auf dem SQL Server zu haben.
+keine Replikation
+kein CDT und CDC
+keine temporären Prozeduren
+*/
 USE ContainedDatabase;
 
-CREATE USER tkansy WITH PASSWORD = 'Geheim4711';
+CREATE USER Theo WITH PASSWORD = 'Geheim4711';
 
 EXECUTE sp_migrate_user_to_contained 
-    @username = N'TKansy', 
+    @username = N'Theo', 
     @rename = N'keep_name',
     @disablelogin = N'disable_login';
 
