@@ -113,14 +113,14 @@
           <FullPath>07_ForwardRecordCount.sql</FullPath>
         </FileNode>
         <FileNode Name="08_Monitoring.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>08_Monitoring.sql</FullPath>
         </FileNode>
         <FileNode Name="25_Indizes.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>25_Indizes.sql</FullPath>
         </FileNode>
@@ -147,6 +147,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_Spieltabelle mit ID.sql">
           <AssociatedConnectionMoniker />
