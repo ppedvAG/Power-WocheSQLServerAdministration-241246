@@ -2,13 +2,193 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Monitoring_Indizes">
   <Items>
     <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="BIGBEN:BIGBEN\Administrator">
+          <Created>2024-08-02T09:51:40.2371626+02:00</Created>
+          <Type>SQL</Type>
+          <Server>BIGBEN</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="00_inventar.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>00_inventar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_Virtualisierung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01_Virtualisierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_MAXDOP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Setup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_SETUP_bestPractce.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_SETUP_bestPractce.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_DBSettings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_DBSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_TraceFlags.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_TraceFlags.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03a_ADR_SETUP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03a_ADR_SETUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03b_ADR_Fill1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03b_ADR_Fill1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03b_ADR_Fill2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03b_ADR_Fill2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DBSettings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_DBSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Kompression.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_Kompression.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_part Sicht.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_part Sicht.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_Partitionierung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_Partitionierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_ForwardRecordCount.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>07_ForwardRecordCount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_Monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="25_Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>25_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IX__ColumnstoreIX.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IX__ColumnstoreIX.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Spieltabelle mit ID.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Spieltabelle mit ID.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Tempdb Spooling.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Tempdb Spooling.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_TempDB_Messen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_TempDB_Messen.sql</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="FirstResponderKit.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FirstResponderKit.zip</FullPath>
+        </FileNode>
+        <FileNode Name="PerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PerfmonVorlage.xml</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPerfmonVorlage_ColStore.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPerfmonVorlage_ColStore.xml</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>

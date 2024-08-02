@@ -13,7 +13,7 @@ HDD!!!!!! optimieren.
 IO reduzieren!!! IO schneller machen
 
 
-jeweniger IO desto weniger...RAM und desto weiger CPU
+jeweniger IO desto weniger...RAM und desto weniger CPU
 IO-->CPU
 
 Virtualisierung--> Konsolidierung--> genug HDD Power?

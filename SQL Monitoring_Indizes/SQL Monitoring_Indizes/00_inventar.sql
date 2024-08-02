@@ -8,6 +8,6 @@
 
 --Windows OS: 4 GB
 --HV DC: 2 GB dyn
---HV-sql1: 6000 MB fix
---HV-sql2: 4000 MB fix
+--HV-sql1: 5000 MB fix 4 Kerne
+--HV-sql2: 4500 MB fix
 
